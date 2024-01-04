@@ -21,3 +21,7 @@ class MyTestCase(unittest.TestCase):
     def test_function_raises_error_for_string_param2(self):
         with self.assertRaises(TypeError) as context:
             fmod_wrapper(3, "sasa")
+
+    def test_function_raises_error_for_None(self):
+        with self.assertRaises(TypeError) as context:
+            fmod_wrapper(3, None)
