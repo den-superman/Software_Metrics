@@ -1,0 +1,100 @@
+Denys Skrynnik, 2217073, Ticket 16
+
+1. Design phase - The design phase involves defining project objectives, researching user needs, creating wireframes and prototypes, developing visual and interaction designs, ensuring accessibility and usability, documenting decisions, gathering feedback, and obtaining final approval before moving to development.
+
+2. Determine the list of quality requirements:
+Performance: Ensure optimal response times and throughput.
+Reliability: Specify uptime and mean time between failures.
+Availability: Define allowable downtime.
+Scalability: Outline system's ability to handle increased load.
+Security: Implement measures for access control and data protection.
+Usability: Define user interface standards for a user-friendly experience.
+Compatibility: Ensure compatibility with specified hardware, software, and browsers.
+Maintainability: Provide clear documentation and easy code maintenance.
+Portability: Specify system's ability to run on different platforms.
+Compliance: Ensure adherence to laws, regulations, and industry standards.
+
+3. Drawback of codecoverage measurement - One drawback of code coverage measurement is that it does not necessarily guarantee thorough testing or identify all possible defects. High code coverage may give a false sense of security, as it only measures the percentage of code executed during testing, not the quality or correctness of the tests. It's possible to have high code coverage with ineffective test cases that don't adequately explore various scenarios or edge cases. Additionally, code coverage metrics might not reveal logical errors, missing requirements, or issues related to system integration. It's important to complement code coverage analysis with other testing methods for comprehensive quality assurance.
+
+4. Requirements traceability is the ability to trace and manage the life of a requirement throughout the development process. It involves documenting and linking requirements from their origin through design, implementation, testing, and maintenance. The primary goal is to ensure that each component and decision in the development process can be traced back to a specific requirement.
+Benefits:
+Visibility: Provides a clear understanding of the relationships between different project elements.
+Change Impact Analysis: Helps assess the impact of changes on requirements and related components.
+Risk Management: Enables identification and mitigation of risks associated with specific requirements.
+Verification and Validation: Facilitates confirmation that all requirements are met and validated during testing.
+Documentation: Improves documentation by maintaining a clear record of requirements and their evolution.
+
+Drawbacks:
+Time-Consuming: Establishing and maintaining traceability can be time-consuming.
+Overhead: The process may add overhead, especially for small projects.
+Complexity: Managing traceability for complex systems can become challenging.
+Tool Dependency: Relies on tools for effective implementation, and the choice of tools is crucial.
+Incomplete Traceability: Achieving complete traceability may be difficult, especially in evolving projects.
+Despite these drawbacks, the benefits of requirements traceability often outweigh the challenges, especially in larger and regulated projects where understanding the impact of changes and ensuring compliance are critical.
+
+5. Software design is the process of defining the architecture, components, modules, interfaces, and data for a software system to satisfy specified requirements. It involves making decisions about how the software will be structured and how it will meet its functional and non-functional requirements. Here are key aspects of software design:
+Architectural Design:
+Defines the overall structure of the software system.
+Determines major components and their relationships.
+Focuses on high-level abstraction and system organization.
+
+Detailed Design:
+Specifies the internal structure of each software component.
+Defines data structures, algorithms, and interfaces.
+Transforms architectural design into a more
+
+6. The Goal/Question/Metric (GQM) paradigm is a framework used in software engineering and other fields for defining and measuring quality. It provides a structured approach to link business goals to measurable outcomes. Here's a brief overview:
+Goal (G):
+Definition: Establish the overarching objective or purpose.
+Example: Improve software reliability.
+
+Question (Q):
+Definition: Pose specific questions related to the goal.
+Example: What is the mean time between failures (MTBF)?
+
+Metric (M):
+Definition: Define quantitative measures to answer the questions.
+Example: Use MTBF as a metric, measured in hours.
+The GQM paradigm helps organizations align their activities with business objectives, providing a systematic way to measure progress and success. It promotes a clear understanding of the goals, the information needed to assess progress, and the metrics that will provide that information. The approach is iterative, allowing for refinement of goals, questions, and metrics over time.
+
+7. Organization measures:
+Financial Performance:
+Metrics: Revenue, profit margin, ROI.
+Customer Satisfaction:
+Metrics: NPS, customer feedback, retention.
+Employee Engagement:
+Metrics: Satisfaction surveys, turnover rate, engagement scores.
+Operational Efficiency:
+Metrics: Cycle time, resource utilization, productivity.
+Innovation:
+Metrics: New products, patents, R&D investment.
+Market Share:
+Metrics: Market percentage, industry rankings.
+Quality:
+Metrics: Defect rates, customer complaints, reliability.
+Strategic Goals:
+Metrics: Progress toward objectives, KPIs.
+Compliance:
+Metrics: Regulatory adherence, industry compliance.
+Social Responsibility:
+Metrics: CSR initiatives, environmental impact.
+Brand Reputation:
+Metrics: Brand recognition, reputation scores.
+Employee Development:
+Metrics: Training hours, skill programs, certifications.
+Cost Management:
+Metrics: Cost per unit, cost reduction, cost-effectiveness.
+Risk Management:
+Metrics: Identification, mitigation of organizational risks.
+Strategic Alignment:
+Metrics: Alignment with strategic goals.
+
+8. Cohesion in software engineering measures how closely elements within a module work together. It comes in types like functional, sequential, and communicational. High cohesion is desirable for maintainable and modular code, while low cohesion can lead to complexity and difficulty in understanding and maintaining modules
+
+9. Downtime refers to the period during which a system, machine, or service is unavailable or not operational. It is typically the time when planned maintenance, upgrades, or unexpected issues occur, causing a disruption in normal operations. Minimizing downtime is crucial for maintaining the efficiency and reliability of systems and services
+
+10. Depth in a tree data structure refers to the level or distance of a node from the root node. The root node is considered to be at level 0, and each level downward from the root increases the depth by 1.
+For example:
+If a node is directly connected to the root, it is at depth 1.
+If a node is connected to a node at depth 1, it is at depth 2, and so on.
+In summary, the depth of a node in a tree represents how far down the node is from the root of the tree.
